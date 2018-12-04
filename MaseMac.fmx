@@ -1,0 +1,261 @@
+object Form1: TForm1
+  Left = 0
+  Top = 633
+  Caption = 'Form1'
+  ClientHeight = 370
+  ClientWidth = 573
+  Position = Designed
+  Visible = True
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  Top = 633
+  DesignerMasterStyle = 0
+  object header: THeader
+    Sides = [Top, Left, Bottom, Right]
+    Align = MostTop
+    Size.Width = 573.000000000000000000
+    Size.Height = 65.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object title: THeaderItem
+      Align = MostTop
+      HitTest = False
+      Size.Width = 577.000000000000000000
+      Size.Height = 65.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'MASE MAC'
+      StyledSettings = []
+      TextSettings.Font.Family = 'Times New Roman'
+      TextSettings.Font.Size = 48.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claFirebrick
+      TextSettings.HorzAlign = Leading
+      TextSettings.WordWrap = True
+      TextSettings.Trimming = Word
+    end
+  end
+  object actionButtons: TPanel
+    Position.X = 272.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 273.000000000000000000
+    Size.Height = 217.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    object add: TButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 24.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Text = 'a + b'
+      TextSettings.Font.Size = 22.000000000000000000
+      OnClick = addClick
+    end
+    object subtract: TButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 24.000000000000000000
+      Position.Y = 64.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'a - b'
+      TextSettings.Font.Size = 22.000000000000000000
+      OnClick = subtractClick
+    end
+    object multiply: TButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 24.000000000000000000
+      Position.Y = 112.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'a * b'
+      TextSettings.Font.Size = 22.000000000000000000
+      OnClick = multiplyClick
+    end
+    object divide: TButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 24.000000000000000000
+      Position.Y = 160.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'a / b'
+      TextSettings.Font.Size = 22.000000000000000000
+      OnClick = divideClick
+    end
+    object inverse: TButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 152.000000000000000000
+      Position.Y = 160.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      Text = '1 / a'
+      TextSettings.Font.Size = 22.000000000000000000
+      OnClick = inverseClick
+    end
+    object sqr: TButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 152.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      Text = 'a^2'
+      TextSettings.Font.Size = 22.000000000000000000
+      OnClick = sqrClick
+    end
+    object exp: TButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 152.000000000000000000
+      Position.Y = 64.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 6
+      Text = 'a^b'
+      TextSettings.Font.Size = 22.000000000000000000
+      OnClick = expClick
+    end
+    object negate: TButton
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 152.000000000000000000
+      Position.Y = 112.000000000000000000
+      Size.Width = 97.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 5
+      Text = '- a'
+      TextSettings.Font.Size = 22.000000000000000000
+      OnClick = negateClick
+    end
+  end
+  object inputs: TPanel
+    Position.X = 32.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 185.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object a_label: TLabel
+      Position.X = 13.000000000000000000
+      Position.Y = 8.000000000000000000
+      Scale.X = 2.000000000000000000
+      Scale.Y = 2.000000000000000000
+      Size.Width = 28.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'a = '
+      TabOrder = 0
+    end
+    object b_label: TLabel
+      Position.X = 13.000000000000000000
+      Position.Y = 63.000000000000000000
+      Scale.X = 2.000000000000000000
+      Scale.Y = 2.000000000000000000
+      Size.Width = 28.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'b = '
+      TabOrder = 1
+    end
+    object m_label: TLabel
+      Position.X = 13.000000000000000000
+      Position.Y = 119.000000000000000000
+      Scale.X = 2.000000000000000000
+      Scale.Y = 2.000000000000000000
+      Size.Width = 28.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'm = '
+      TabOrder = 2
+    end
+    object b_input: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 5
+      Text = '0'
+      Position.X = 72.000000000000000000
+      Position.Y = 72.000000000000000000
+      Size.Width = 113.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object m_input: TNumberBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 6
+      Cursor = crIBeam
+      Position.X = 72.000000000000000000
+      Position.Y = 128.000000000000000000
+      Size.Width = 113.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object a_input: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 7
+      Text = '0'
+      Position.X = 72.000000000000000000
+      Position.Y = 16.000000000000000000
+      Size.Width = 113.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object answer_panel: TPanel
+    Position.X = 32.000000000000000000
+    Position.Y = 288.000000000000000000
+    Size.Width = 209.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object answer_box: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 0
+      ReadOnly = True
+      Position.X = 72.000000000000000000
+      Position.Y = 8.000000000000000000
+      HitTest = False
+      Size.Width = 113.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+    end
+    object answer_label: TLabel
+      StyledSettings = [Family, Style, FontColor]
+      Position.X = 16.000000000000000000
+      Position.Y = 8.000000000000000000
+      Size.Width = 57.000000000000000000
+      Size.Height = 41.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 22.000000000000000000
+      Text = 'Ans:'
+      TabOrder = 1
+    end
+  end
+  object mssg_panel: TPanel
+    Position.X = 272.000000000000000000
+    Position.Y = 320.000000000000000000
+    Size.Width = 273.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    object errorMssg: TLabel
+      StyledSettings = [Family, Size, Style]
+      Position.X = 24.000000000000000000
+      Size.Width = 217.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = claCrimson
+      TabOrder = 1
+    end
+  end
+end

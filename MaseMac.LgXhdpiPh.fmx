@@ -1,0 +1,29 @@
+inherited Form1_LgXhdpiPh: TForm1_LgXhdpiPh
+  ClientHeight = 695
+  ClientWidth = 450
+  DesignerMasterStyle = 0
+  inherited header: THeader
+    Size.Width = 450.000000000000000000
+    inherited title: THeaderItem
+      Scale.X = 2.000000000000000000
+      Scale.Y = 2.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  inherited inputs: TPanel
+    inherited b_input: TEdit
+      Size.Height = 32.000000000000000000
+    end
+    inherited m_input: TNumberBox
+      Size.Height = 32.000000000000000000
+    end
+    inherited a_input: TEdit
+      Size.Height = 32.000000000000000000
+    end
+  end
+  inherited answer_panel: TPanel
+    inherited answer_box: TEdit
+      Size.Height = 32.000000000000000000
+    end
+  end
+end

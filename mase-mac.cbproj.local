@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/11/18 11:51:57.000.359,=C:\Users\Eldor Bekpulatov\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
+    <Transaction>2018/11/18 11:51:58.000.533,=C:\Users\Eldor Bekpulatov\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>2018/11/18 12:36:12.000.976,C:\Users\Eldor Bekpulatov\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\Eldor Bekpulatov\Documents\Embarcadero\Studio\Projects\MaseMac.cpp</Transaction>
+    <Transaction>2018/11/18 12:36:12.000.976,C:\Users\Eldor Bekpulatov\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\Eldor Bekpulatov\Documents\Embarcadero\Studio\Projects\MaseMac.fmx</Transaction>
+    <Transaction>2018/11/18 12:36:12.000.976,C:\Users\Eldor Bekpulatov\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\Eldor Bekpulatov\Documents\Embarcadero\Studio\Projects\MaseMac.h</Transaction>
+    <Transaction>2018/11/18 12:36:23.000.886,C:\Users\Eldor Bekpulatov\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\Eldor Bekpulatov\Documents\Embarcadero\Studio\Projects\MaseMacPCH1.h</Transaction>
+    <Transaction>2018/11/18 12:36:57.000.222,C:\Users\Eldor Bekpulatov\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\Eldor Bekpulatov\Documents\Embarcadero\Studio\Projects\mase-mac.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>
